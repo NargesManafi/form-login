@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../img/famous-california-street-in-san-francisco-at-night-picjumbo-com.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    width: 350px;
+    height: auto;
+    border-radius: 8px;
+    background-color:rgba( 0 ,0 ,0 ,0.7);
+    padding: 40px 20px;
+}
+.title{
+    color: #fff;
+    font-size: 3.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+.form{
+    padding: 16px;
+    width: 100%;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    padding: 4px 0;
+}
+.label{
+    font-weight: bold;
+    font-size: 1.6rem;
+    color: #fff;
+    margin-bottom: 4px;
+}
+.input{
+    padding: 4px 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.6rem;
+    outline: none;
+}
+.input::placeholder{
+    font-size: 1.6rem;
+}
+.input:focus{
+    box-shadow: 1px 1px 4px 1px rgba(255 ,255, 255,0.5);
+}
+textarea{
+    resize: none;
+}
+.btn{
+    width: 100%;
+    font-weight: bold;
+    font-size: 1.3rem;
+    background-color:#676767;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 0.5px solid black;
+    padding: 10px;
+}
